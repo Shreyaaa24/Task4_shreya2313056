@@ -4,7 +4,7 @@ import p2_img from '../../Assets/bed2.jpeg'
 import p3_img from '../../Assets/sofa.jpeg'
 import p4_img from '../../Assets/sofa2.jpeg'
 import p5_img from '../../Assets/bed2.jpeg'
-/*mport {FaStar} from "react/icons/fa6";*/
+import {FaStar} from "react/icons/fa6"
 const  data_product = [
     {
       id:1,
@@ -62,7 +62,7 @@ data-aos-delay={data.aosDelay}
     <img src={data.image}alt="" className='h-[220px] w-[150px] object-cover rounded-md'/>
 <h3 className='font-semibold'>{data.name}</h3>
 <div className='flex items-center gap-1'>
-{/*<FaStar className='text-yellow-400'/>*/}
+<FaStar className='text-yellow-400'/>
 <span> {data.rating} </span>
 </div>
 </div>

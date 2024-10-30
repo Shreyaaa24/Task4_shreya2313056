@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from '../../Assets/logo_big.png'
-import { FaCartShopping } from 'react-icons/fa6'
 import DarkMode from './DarkMode'
 import cart_icon from '../../Assets/cart_icon.png'
+import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>

@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import CartPage from './Pages/Cart/Cart';
 import  TopProducts from './Components/TopProducts/TopProducts'
 import  Footer from './Components/Footer/Footer'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router,Routes, Route} from 'react-router-dom';
 const App = () => {
   
   React.useEffect(()=>{
@@ -29,12 +29,12 @@ delay:100,
                     <Navbar />
                 </header>
                 
-                <Switch>
-                    <Route path="/cart">
-                     <CartPage/>
-                     </Route>
-                    <Route path="/" exact><TopProducts /></Route>
-                </Switch>
+              <Routes>
+                    <Route path="/cart" element ={<CartPage/>}/>
+                     
+                    <Route path="/" element ={<TopProducts/>}/>
+                  
+                    </Routes>
             </div>
         </Router>
      
