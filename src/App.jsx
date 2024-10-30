@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
 import Products from './Components/Products/Products'
 import AOS from"aos";
+import './index.css';
 import "aos/dist/aos.css";
 import CartPage from './Pages/Cart/Cart';
 import  TopProducts from './Components/TopProducts/TopProducts'
@@ -24,8 +25,8 @@ delay:100,
       
       <Router>
             <div className="app">
-                <header className="flex justify-between p-4 bg-gray-800 text-white">
-                    <h1 className="text-xl">My Ecommerce Site</h1>
+                <header className="">
+                    
                     <Navbar />
                 </header>
                 

@@ -1,6 +1,6 @@
 .hero{
     height: 100vh;
-    background:rgb(209, 205, 209) ;
+    
     display: flex;
     
 }    
@@ -13,12 +13,12 @@
     line-height: 1.1;
 }
 .hero-left h2{
-    color: rgb(101, 37, 37);
+    color: rgb(227, 169, 169);
     font-size: 26px;
     font-weight: 600;
 }
 .hero-left{
-    color: rgb(58, 46, 79);
+    color: rgb(137, 148, 117);
     font-size: 80px;
     font-weight: 600;
 }
@@ -46,8 +46,7 @@ hero-hand-icon{
     display:flex;
     align-items: baseline;
     justify-content: center;
-    background:rgb(209, 205, 209) ;
-    flex-direction: row; 
+   flex-direction: row; 
     gap: 20px;
     flex-wrap: wrap;
     

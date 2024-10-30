@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    background:black;
+    background:rgb(56, 62, 54);
 }
 .footer-logo{
     display: flex;
@@ -13,7 +13,7 @@
 
 }
 .footer-logo p{
-    color:rgb(230, 222, 222);
+    color:rgb(100, 61, 61);
     font-size: 46px;
     font-weight: 700;
 
@@ -43,7 +43,7 @@ border:1px solid white ;
     gap: 30px;
     width: 100px;
     margin-bottom: 30px;
-    color:black;
+    color:white;
     font-size: 20px;
 }
 .footer-copyright hr{

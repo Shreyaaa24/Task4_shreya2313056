@@ -9,8 +9,9 @@ const CartPage = () => {
   const totalPrice = cart.reduce((acc, item) => acc + item.new_price * item.quantity, 0);
 
   return (
+    <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
     <div className="cart-container">
-      <h2 className="text-2xl font-bold"> Cart page</h2>
+      <h2 className="text-2xl font-bold"> Cart page (Please Select your products from All Products Section Above Footer)</h2>
       {cart.length === 0 ? (
         <p>Your cart is empty.</p>
       ) : (
@@ -35,8 +36,10 @@ const CartPage = () => {
           </ul>
           <h3 className="text-lg font-bold">Total Price: ${totalPrice.toFixed(2)}</h3>
         </>
+         
       )}
     </div>
+   </div>
   );
 };
 

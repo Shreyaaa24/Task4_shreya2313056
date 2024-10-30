@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40'>
-    <div className='bg-purple-900 dark:bg-purple-500 py-5 px-6 text-white'>
+    <div className='bg-green-700 dark:bg-green-900 py-5 px-6 text-white'>
   
       <div className='container flex justify-between items-center'>
         
@@ -26,7 +26,7 @@ const Navbar = () => {
               className="bg-gradient-to-r from-orange-400 to-secondary duration-200 text-white py-1 px-4 rounded-full flex item-center gap-3 group">
               <span className='group-hover:block hidden transition-allduration-200'
               >Order</span>
-              <FaCartShopping className='text-xl text-whitedrop-shadow-sm cursor-pointer'/>
+              
             </button>
     {/*darkmode switch*/}
 <div>

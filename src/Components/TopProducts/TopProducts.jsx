@@ -59,7 +59,7 @@ const TopProducts = () => {
         <div className='text-center mb-8 max-w-[800px] mx-auto'>
           <p className='text-sm text-primary'>TOP RATED PRODUCTS FOR YOU</p>
           <h1 data-aos='fade-up' className='text-3xl font-bold'>
-            BEST PRODUCTS
+            ALL PRODUCTS 
           </h1>
           <p className='text-xs text-gray-400 mt-2'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, sapiente earum quae dolore expedita
