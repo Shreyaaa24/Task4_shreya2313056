@@ -7,15 +7,15 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = (product) => {
     setCart((prevCart) => {
-      // Check if item is already in cart
+      
       const itemIndex = prevCart.findIndex((item) => item.id === product.id);
       if (itemIndex > -1) {
-        // Update quantity if item exists
+       
         const updatedCart = [...prevCart];
         updatedCart[itemIndex].quantity += 1;
         return updatedCart;
       }
-      // Otherwise, add new item with quantity 1
+    
       return [...prevCart, { ...product, quantity: 1 }];
     });
   };

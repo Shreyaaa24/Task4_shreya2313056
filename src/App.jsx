@@ -4,7 +4,7 @@ import Hero from './Components/Hero/Hero'
 import Products from './Components/Products/Products'
 import AOS from"aos";
 import "aos/dist/aos.css";
-import CartPage from './src/PagesCart';
+import CartPage from './Pages/Cart/Cart';
 import  TopProducts from './Components/TopProducts/TopProducts'
 import  Footer from './Components/Footer/Footer'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
